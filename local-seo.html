@@ -1,0 +1,325 @@
+ <!DOCTYPE html>
+<html lang="bn">
+<head>
+<link rel="stylesheet" href="css/style.css">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Font Awesome Icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEO Service</title>
+    <style>
+             .navbar-brand h1 span {
+    color: #25af84 !important;
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #25af84 !important;
+}
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        
+     .banner {
+     background: url('img/local-seo.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+    width: 100%;
+    min-height: 400px; /* ব্যানারের ন্যূনতম উচ্চতা ঠিক করা */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ব্যাকগ্রাউন্ড ওভারলে */
+.banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* কালো ট্রান্সপারেন্ট লেয়ার */
+    z-index: 0;
+}
+
+/* ব্যানারের কনটেন্ট */
+.banner .container {
+    position: relative;
+    z-index: 1;
+}
+
+.banner h1 {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-outline-primary {
+    color: #25af84 !important;
+    border-color: #25af84 !important;
+}
+.btn-outline-primary:hover {
+    background-color: #25af84 !important;
+    color: white !important;
+}
+
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background: #30b489;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #30b489;
+        }
+
+        /* কন্টেন্ট স্টাইল */
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            text-align: center; /* সব কনটেন্ট মাঝখানে আনতে */
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            text-align: left; /* লিস্ট আইটেম বামে রাখতে */
+            display: inline-block;
+        }
+
+        ul li {
+            background: #10ebe4
+            margin: 10px 0;
+            padding: 10px;
+            border-left: 5px solid #007BFF;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            text-align: left; /* টেবিল টেক্সট বামে রাখতে */
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        th {
+            background: #04e4dd
+            color: white;
+        }
+
+     ..footer {
+    background: #007bff; /* Home page er primary color */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+
+/* Social Media Icons */
+.btn-social {
+    width: 50px; /* বৃত্তের প্রস্থ */
+    height: 50px; /* বৃত্তের উচ্চতা */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; /* এটিই বৃত্ত তৈরি করবে */
+    background: white;
+    border: 2px solid #25af84;
+    color: #25af84;
+    font-size: 20px;
+    text-decoration: none; /* লিংকের underline সরানো */
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-social i {
+    font-size: 22px; /* আইকনের সাইজ */
+}
+
+.btn-social:hover {
+    background: #25af84;
+    color: white;
+    transform: scale(1.1); /* হোভার করলে একটু বড় হবে */
+}
+    </style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEO Service</title>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- JS Files (Keep Only in <head>) -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+<!-- Bootstrap & jQuery Scripts -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="js/main.js"></script>
+
+    <!-- ব্যানার -->
+    <header class="banner">
+        <div class="container">
+            <h1></h1>
+         </div>
+    </header>
+<nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+    <a href="index.html" class="navbar-brand ml-lg-3">
+        <h1 class="m-0 display-5"><span class="text-primary">Anin</span>Naim</h1>
+    </a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+    <div class="navbar-nav m-auto py-0">
+        <a href="index.html" class="nav-item nav-link">Home</a>
+        <a href="index.html#about" class="nav-item nav-link">About</a>
+        <a href="index.html#qualification" class="nav-item nav-link">Quality</a>
+        <a href="index.html#skill" class="nav-item nav-link">Skill</a>
+        <a href="index.html#service" class="nav-item nav-link">Service</a>
+        <a href="index.html#portfolio" class="nav-item nav-link">Portfolio</a>
+        <a href="index.html#contact" class="nav-item nav-link">Contact</a>
+    </div>
+</div>
+        <a href="" class="btn btn-outline-primary d-none d-lg-block">Hire Me</a>
+    </div>
+</nav>
+
+
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Local SEO Services - Rank Higher in Local Searches">
+    <title>Local SEO Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+        <header>
+            <h1>Local SEO Services: Dominate Your Local Market</h1>
+        </header>
+        <section id="intro">
+            <p>Are you struggling to attract local customers to your business? Local SEO is the key to ensuring that your business appears at the top of local search results when potential customers search for services near them. Our expert Local SEO services help businesses increase visibility, attract more local traffic, and convert leads into loyal customers.</p>
+            <p>With the rise of mobile searches and Google’s emphasis on local businesses, optimizing your online presence is more critical than ever. I specialize in optimizing your website and business listings to ensure that you appear in local searches, Google Maps, and "near me" searches.</p>
+        </section>
+        <section id="services">
+            <h2>My Local SEO Services Include</h2>
+            <ul>
+                <li>
+                    <h3>Google My Business (GMB) Optimization</h3>
+                    <p>I set up and optimize your Google My Business profile to ensure maximum visibility in local searches and Google Maps. My experts will optimize your business details, categories, images, and reviews to improve rankings.</p>
+                </li>
+                <li>
+                    <h3>Local Keyword Research & Optimization</h3>
+                    <p>I perform in-depth keyword research to find the best local search terms that your potential customers are using. my then optimize your content with these keywords to improve your rankings.</p>
+                </li>
+                <li>
+                    <h3>NAP Consistency (Name, Address, Phone Number)</h3>
+                    <p>Ensuring that your business information is accurate and consistent across all directories and listings is essential for ranking. My audit and update your NAP details across all platforms.</p>
+                </li>
+                <li>
+                    <h3>Local Citation Building</h3>
+                    <p>We submit your business information to high-authority directories, improving credibility and helping search engines recognize your business as trustworthy.</p>
+                </li>
+                <li>
+                    <h3>Online Reviews & Reputation Management</h3>
+                    <p>Positive reviews play a significant role in local rankings. I help manage your online reputation, encourage customer reviews, and respond to feedback professionally.</p>
+                </li>
+                <li>
+                    <h3>Location-Based Content Strategy</h3>
+                    <p>Creating locally optimized content helps your business rank for specific regional searches. We develop engaging blog posts, landing pages, and service pages targeting local customers.</p>
+                </li>
+                <li>
+                    <h3>Local Link Building</h3>
+                    <p>Backlinks from authoritative local websites improve your credibility and search rankings. We create partnerships with local businesses, directories, and news outlets to build high-quality links.</p>
+                </li>
+                <li>
+                    <h3>Mobile Optimization</h3>
+                    <p>Most local searches happen on mobile devices. We ensure your website is mobile-friendly, loads quickly, and provides a seamless user experience.</p>
+                </li>
+                <li>
+                    <h3>Schema Markup for Local SEO</h3>
+                    <p>MY implement structured data (Schema Markup) on your website to help search engines understand your business details, improving your chances of appearing in rich results.</p>
+                </li>
+            </ul>
+        </section>
+        <section id="benefits">
+            <h2>Why Choose My Local SEO Services?</h2>
+            <p>With I''m an expert Local SEO services, you can expect:</p>
+            <ul>
+                <li>Higher rankings in local search results</li>
+                <li>Increased website traffic from potential local customers</li>
+                <li>More leads and conversions for your business</li>
+                <li>Stronger online presence and brand reputation</li>
+                <li>Improved visibility on Google Maps and "near me" searches</li>
+            </ul>
+        </section>
+
+
+        <a href="index.html#contact" class="btn">Contact me</a>
+    </div>
+
+
+   <!-- Footer Start -->
+<div class="container-fluid text-white mt-5 py-5 px-sm-3 px-md-5" style="background:#25af84;">
+    <div class="container text-center py-5">
+        <div class="d-flex justify-content-center mb-4">
+            <a class="btn btn-light btn-social mr-2" href="https://www.facebook.com/aninseospecialist"><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/anin-naim/"><i class="fab fa-linkedin-in"></i></a>
+            <a class="btn btn-light btn-social" href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <div class="d-flex justify-content-center mb-3">
+            <span class="px-3">
+            <a class="text-white" href="faqs.html">FAQs</a>
+        </div>
+           <p>&copy; 2025 Anin Naim. All Rights Reserved. | <a href="index.html">Back to Home</a></p>
+        </p>
+    </div>
+</div>
+<!-- Footer End -->
+
+
+</body>
+</html>
+
